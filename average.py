@@ -26,7 +26,7 @@ def getAverage(a,b):
         fare_sum += record[0]
     if passenger_sum == 0:
         return 0;
-    else:
+    else: 
         return fare_sum/passenger_sum
    
 
